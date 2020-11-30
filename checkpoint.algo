@@ -1,0 +1,26 @@
+ALGORITHM Sum of distinct elements among two given sets
+
+VAR
+    arr1[],arr2[]:INTEGER;
+i : INTEGER;
+sum1,sum2 : INTEGER=0;
+BEGIN
+    for (int i = 0; i < n-1; i++) { 
+            if (arr[i] != arr[i + 1]) { 
+                sum1 = sum1 + arr[i+1]; 
+            } 
+        } 
+  
+        return sum1; 
+    } 
+
+
+    for (int i = 0; i < n-1; i++) { 
+            if (arr[i] = arr[i + 1]) { 
+                sum2 = sum2 + arr[i+1]; 
+            } 
+        } 
+  
+        return sum2; 
+    } 
+END
